@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:8000/api";
+const API = "https://citizen-demand-infrastructure-platform-1.onrender.com/api";
 
 const LANGUAGES = [
   { code: "en", label: "English" },

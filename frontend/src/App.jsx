@@ -3,7 +3,7 @@ import HotspotMap from "./components/HotspotMap.jsx";
 import PriorityList from "./components/PriorityList.jsx";
 import RequestForm from "./components/RequestForm.jsx";
 
-const API = "http://localhost:8000/api";
+const API = "https://citizen-demand-infrastructure-platform-1.onrender.com/api";
 
 export default function App() {
   const [hotspots, setHotspots] = useState([]);
