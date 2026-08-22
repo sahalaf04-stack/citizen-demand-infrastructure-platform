@@ -1,0 +1,22 @@
+# backend
+backend/venv/
+backend/__pycache__/
+backend/*.db
+backend/.env
+
+# frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+@"
+backend/venv/
+backend/__pycache__/
+frontend/node_modules/
+*.pyc
+.env
+.env.example
+*.db
+dist/
+"@ | Out-File -Encoding utf8 .gitignoregit add .
