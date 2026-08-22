@@ -19,7 +19,10 @@ app = FastAPI(title="Citizen Demand Aggregation Platform")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Vite dev server
+    allow_origins=[
+    "http://localhost:5173",
+    "https://citizen-demand-infrastructure-platf.vercel.app",
+],  # Vite dev server
     allow_methods=["*"],
     allow_headers=["*"],
 )
